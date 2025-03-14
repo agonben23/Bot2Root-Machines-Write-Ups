@@ -26,13 +26,13 @@ Haciendo un escaneo profundo de esos puertos obtenemos información relevante :
 
 ![](./images/Pasted%20image%2020250222122135.png)
 
-# Identificación de la vulnerabilidad
+## Identificación de la vulnerabilidad
 
 ![](./images/Pasted%20image%2020250222123941.png)
 
-# Explotación de la vulnerabilidad
+## Explotación de la vulnerabilidad
 
-## Gain Access
+### Gain Access
 
 Buscamos el exploit relacionado con la vulnerabilidad en metasploit
 
@@ -58,7 +58,7 @@ Ya tendríamos acceso a la máquina. Ejecutamos ```get uid``` para obtener más 
 
 ![](./images/Pasted%20image%2020250222125758.png)
 
-## Escalate 
+### Escalate 
 
 Ejecutamos un comando para ver que exploits nos pueden servir para escalar privilegios
 
@@ -90,7 +90,7 @@ Como podemos observar tenemos acceso a numerosos privilegios como "SeTakeOwnersh
 
 ![](./images/Pasted%20image%2020250222131942.png)
 
-## Looting
+### Looting
 
 Ejecutamos el comando ps para listar los procesos visibles para el usuario root
 
@@ -106,7 +106,7 @@ Cargamos la herramienta "kiwi" que nos permite hacer un volcado de todas las con
 
 ![](./images/Pasted%20image%2020250222134219.png)
 
-# Post-explotation
+## Post-explotation
 
 Como tenemos las contraseñas y el servicio RDP está en funcionamiento podemos entrar al equipo a través de la interfaz visual como si fueramos el usuario Dark
 

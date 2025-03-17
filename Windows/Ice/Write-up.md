@@ -3,7 +3,7 @@
 
 [Enlace a la máquina](https://tryhackme.com/room/ice)
 
-# Escaneo con Nmap
+# Enumeration
 
 En el escaneo preeliminar aparece información sobre los puertos TCP :
 

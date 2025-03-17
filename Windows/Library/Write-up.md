@@ -2,7 +2,7 @@
 
 [Enlace a la máquina](https://tryhackme.com/room/bsidesgtlibrary)
 
-## Escaneo con Nmap
+## Enumeration
 
 En el escaneo aparece información sobre los puertos TCP :
 
